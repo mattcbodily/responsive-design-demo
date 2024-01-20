@@ -9,7 +9,7 @@ header nav {
 
 footer p {
   font-size: 16px;
-  line-height: 75px;
+  line-height: 80px;
   text-align: center;
 } 
 
@@ -18,7 +18,7 @@ footer p {
 }
 
 .vanilla-layout-wrapper header {
-  height: 75px;
+  height: 80px;
   padding: 0px 16px;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@ footer p {
 }
 
 .hero-flex {
-  min-height: calc(100vh - 150px);
+  height: 100vh;
   padding: 16px;
   display: flex;
   flex-direction: column-reverse;
@@ -67,7 +67,7 @@ footer p {
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: 640px) {
   header nav {
     display: flex;
     gap: 24px;
@@ -78,13 +78,13 @@ footer p {
   }
 }
 
-@media (min-width: 650px) and (max-width: 899px) {
+@media (min-width: 640px) and (max-width: 1023px) {
   .hero-image {
     width: 450px;
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1024px) {
   .hero-flex {
     flex-direction: row;
   }
