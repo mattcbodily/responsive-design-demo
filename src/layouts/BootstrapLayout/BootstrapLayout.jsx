@@ -13,7 +13,6 @@ import { ScreenTooSmall } from "../../components/ScreenTooSmall/ScreenTooSmall"
 import heroImage from "../../assets/hero-image.webp"
 
 import "./BootstrapLayout.css"
-import { NavDropdown } from "react-bootstrap"
 
 export const BootstrapLayout = () => {
   return (

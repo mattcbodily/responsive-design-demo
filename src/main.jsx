@@ -6,7 +6,6 @@ import App from './App.jsx'
 
 import './reset.css'
 
-
 ///** UNCOMMENT FOR BOOTSTRAP LAYOUT EXAMPLE **///
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
