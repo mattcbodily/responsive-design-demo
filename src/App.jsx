@@ -10,9 +10,9 @@ import { BootstrapLayout } from './layouts/BootstrapLayout/BootstrapLayout'
 function App() {
   return (
     <div>
-      {/* <VanillaLayout /> */}
+      <VanillaLayout />
+      {/* <BootstrapLayout /> */}
       {/* <TailwindLayout /> */}
-      <BootstrapLayout />
     </div>
   )
 }

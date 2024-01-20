@@ -60,37 +60,3 @@ footer p {
   border-radius: 12px;
   box-shadow: 0px 10px 10px 0px lightgray;
 }
-
-@media (max-width: 319px) {
-  .vanilla-layout-wrapper {
-    display: none;
-  }
-}
-
-@media (min-width: 640px) {
-  header nav {
-    display: flex;
-    gap: 24px;
-  }
-
-  .hamburger-menu-button {
-    display: none;
-  }
-}
-
-@media (min-width: 640px) and (max-width: 1023px) {
-  .hero-image {
-    width: 450px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .hero-flex {
-    flex-direction: row;
-  }
-
-  .hero-image {
-    width: 550px;
-    margin-left: 32px;
-  }
-}
