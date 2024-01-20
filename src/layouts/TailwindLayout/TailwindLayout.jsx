@@ -1,3 +1,9 @@
+/*
+  TailwindCSS is a utility-first CSS framework. It's important to note that Tailwind is NOT a component library, but rather a different way to write your CSS. Tailwind provides you with `utility` classes that have pre-defined styles, so that you don't have to write your CSS in a CSS file. These classes are applied inline to elements and can do anything that vanilla CSS can do, with the benefit of more predictable specificity.
+
+  Because Tailwind is capable of anything vanilla CSS is, it is also capable of responsive design. Tailwind does this through built in `screen` breakpoints (these can be customized, but come with default values). When applying a style to a specific breakpoint, it is prefaced with the screensize name first (ex: `sm:flex` would apply `display: flex` to any screen larger than 640px).
+*/
+
 import { ScreenTooSmall } from "../../components/ScreenTooSmall/ScreenTooSmall"
 
 import heroImage from "../../assets/hero-image.webp"

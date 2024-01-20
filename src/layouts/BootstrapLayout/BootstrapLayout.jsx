@@ -1,3 +1,9 @@
+/*
+  Component libraries, such as Bootstrap, generally come with the advantage of being responsive by default. This means that there is generally less work to do to make your website responsive when you are using a component library, IF you use it the way they tell you to in the documentation. It is important to note that not all component libraries support responsive design, so when choosing a component library for your website, make sure to read the documentation to determine if it's right for your project.
+
+  Even when a component library is responsive by default, you may need to extend the styles of the components to match your projects designs. Many component libraries let you extend their components styles by passing in your own CSS classes. Bootstrap (and some others) also will provide you with `utility classes` that you can pass into components (and even just plain elements that you write) to extend their styles.
+*/
+
 import Container from "react-bootstrap/Container"
 import Nav from "react-bootstrap/Nav"
 import Navbar from "react-bootstrap/Navbar"

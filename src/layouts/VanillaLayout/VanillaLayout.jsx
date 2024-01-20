@@ -1,3 +1,7 @@
+/*
+  A popular to implement responsive design with vanilla CSS is by using media queries. This can be done in your CSS file (view the VanillaLayout.css file for reference) by using the @media css rule. There are many values you can pass to @media, but commonly you will see a `min-width` or `max-width` value. These values let you define when the styles in the @media block should be active. The `min-width` value is commonly used for a mobile-first responsive design approach, while the `max-width` value is commonly used for a desktop-first approach. It's important to note that both values can be used to determine a min and max dimension for the active styles.
+*/
+
 import { ScreenTooSmall } from "../../components/ScreenTooSmall/ScreenTooSmall"
 
 import heroImage from "../../assets/hero-image.webp"
