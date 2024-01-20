@@ -51,6 +51,8 @@ No third party packages need to be installed to use vanilla CSS in your own proj
 2. Import that CSS file into the component you are applying styles to (NOTE: CSS file imports should include the path of the file only, ex: `import './styles.css'`)
 3. Write your styles
 
+[MDN documentation on how to use media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries)
+
 ### Bootstrap
 
 To use Bootstrap in your React / Vite projects:
